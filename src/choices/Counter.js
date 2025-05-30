@@ -13,12 +13,16 @@ const Counter = () => {
     setCount(prev => prev + 1);
   };
 
+  const handleMinu = () => {
+    setCount(prev => prev - 1);
+  };
+
   return (
     <div>
       <h1>Hi</h1>
       <h1>Count: {count}</h1>
-      <button onClick={handleCount}>Increment</button>
-
+      <button onClick={handleCount}>Increment</button>\
+      <button onClick={handleMinu}>decrement</button>
       <div style={{ marginTop: '20px' }}>
         {images.map((url, index) => (
           <img
