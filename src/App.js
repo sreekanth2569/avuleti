@@ -1,5 +1,6 @@
 import './App.css';
-</Count>
+import Counter from './choices/Counter';
+
 function App() {
   return (
     <div className='App'>
@@ -7,8 +8,7 @@ function App() {
       <h4>hi</h4>
       <h4>hey sisir nayak</h4>
       <h3>sreekanth updated coe</h3>
-  <Count />
-
+      <Counter />
     </div>
   );
 }
