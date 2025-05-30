@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 const Counter = () => {
   const images = [
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/200',
-    'https://via.placeholder.com/250',
+    'https://images.pexels.com/photos/32081298/pexels-photo-32081298/free-photo-of-ornate-decorative-faucet-with-colorful-tile-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    'https://images.pexels.com/photos/32284698/pexels-photo-32284698/free-photo-of-charming-house-with-blooming-roses-and-red-car.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    'https://images.pexels.com/photos/31540692/pexels-photo-31540692/free-photo-of-delicious-dessert-with-fresh-berries-and-coffee.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   ];
 
   const [count, setCount] = useState(0);
